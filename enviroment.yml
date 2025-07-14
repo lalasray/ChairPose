@@ -1,0 +1,16 @@
+name: chairpose
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch=2.0
+  - torchvision
+  - cudatoolkit=11.7
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pip:
+      - tqdm
