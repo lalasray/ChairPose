@@ -12,5 +12,9 @@ dependencies:
   - numpy
   - matplotlib
   - scikit-learn
+  - scipy
+  - argparse
   - pip:
       - tqdm
+      - umap-learn
+      - optuna
