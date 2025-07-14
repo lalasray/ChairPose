@@ -10,15 +10,18 @@
 - **Pressure2Pose**: Autoregressive classifier predicting pose tokens from pressure and chair geometry.
 
 ---
-
+## Dataset
+```bash
+https://www.kaggle.com/datasets/lalaray/chairpose
+```
+---
 ## Setup
 
 1. Clone repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-repo/chairpose.git
+git clone https://github.com/lalasray/chairpose.git
 cd chairpose
 conda env create -f environment.yml
 conda activate chairpose
-
-
+```
