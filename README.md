@@ -16,10 +16,10 @@
 
 ## File Structure
 
-motion_quantizer.py # VQ-VAE for motion quantization
-pressure2pose.py # Autoregressive pose prediction model
-train.py # Training loop
-inference.py # Autoregressive sequence generation
+- motion_quantizer.py # VQ-VAE for motion quantization
+- pressure2pose.py # Autoregressive pose prediction model
+- train.py # Training loop
+- inference.py # Autoregressive sequence generation
 ---
 
 ## Setup
