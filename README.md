@@ -8,18 +8,7 @@
 
 - **MotionQuantizer**: Compresses 3D motion into discrete tokens via Vector Quantized VAE.
 - **Pressure2Pose**: Autoregressive classifier predicting pose tokens from pressure and chair geometry.
-- Sequence generation with autoregressive decoding.
-- Evaluation metrics: MPJPE (Mean Per Joint Position Error) and smoothness.
-- End-to-end inference/demo support.
 
----
-
-## File Structure
-
-- motion_quantizer.py # VQ-VAE for motion quantization
-- pressure2pose.py # Autoregressive pose prediction model
-- train.py # Training loop
-- inference.py # Autoregressive sequence generation
 ---
 
 ## Setup
